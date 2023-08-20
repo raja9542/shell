@@ -9,3 +9,7 @@ echo the class is=${class}
 Date=$(date +%F)
 
 echo Today date is ${Date}
+
+Add=$((3+5))
+
+echo the add of 2 numbers is ${Add}
