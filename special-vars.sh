@@ -26,5 +26,5 @@ echo "@ - $@"
 echo "# - $#"
 }
 
-example
+example abc 10 20
 
