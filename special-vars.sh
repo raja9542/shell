@@ -28,3 +28,16 @@ echo "# - $#"
 
 example abc 10 20
 
+# for script and function to have same values
+
+example2() {
+echo "following values from function"
+echo "0 - $0" #not applicable for function
+echo "1 - $1"
+echo "2 - $2"
+echo "* - $*"
+echo "@ - $@"
+echo "# - $#"
+}
+
+example2 $*
