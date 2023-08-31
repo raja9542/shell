@@ -15,7 +15,7 @@ esac
 
 if [ "${course_name}" == "AWS" ]; then
     echo "Welcome to AWS Training"
-elif [ "${course_name}" == "Azure"]; then
+elif [ "${course_name}" == "Azure" ]; then
   echo "Welcome to AWS Training"
 else
   echo "unknown Course Name"
