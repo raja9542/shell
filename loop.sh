@@ -1,5 +1,5 @@
 i=10
-while [ $i -lt 0 ]; do
-  echo I=$i
-  i=$(($i%2))
+while [ $i -gt 0 ]; do
+  echo I=$i%2
+  i=$(($i-1))
 done
